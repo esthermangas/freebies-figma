@@ -1,0 +1,67 @@
+.box {
+    height: 600px;
+    width: 250px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.imgBox {
+    margin-top: 30px;
+}
+.text {
+    margin-top: 25px;
+}
+
+.titleBox {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+.descBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    min-height: 180px;
+}
+
+.points {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.textPoint {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-left: 8px;
+}
+.priceBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-self: flex-end;
+
+}
+
+.priceText {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+    margin-bottom: 8px;
+}

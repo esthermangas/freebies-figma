@@ -1,0 +1,28 @@
+.root {
+    width: 100%;
+    height: 90px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+}
+
+.menuIcon {
+    margin-right: 140px;
+}
+
+.buttonsActionsContainer {
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+}
+
+.buttonsUserContainer {
+    display: flex;
+    justify-content: flex-end;
+}

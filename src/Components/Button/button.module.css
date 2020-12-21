@@ -1,0 +1,75 @@
+.button {
+    width: 100px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+}
+.button:hover {
+    background-color: rgba(226, 226, 226, 0.62);
+    transition-duration: 200ms;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.buttonRed {
+    color: #F53855;
+    border: #F53855 1px solid;
+    border-radius: 50px;
+}
+
+.buttonRed:hover{
+    background-color: #F53855;
+    transition-duration: 200ms;
+    cursor: pointer;
+    border-radius: 50px;
+    color: white;
+}
+
+.buttonBold {
+    font-weight: 800;
+}
+
+.completeBoldButton {
+    font-weight: 800;
+    color: #F53855;
+    border: #F53855 solid 4px;
+}
+.completeBoldButton:hover {
+    background-color: rgba(214, 54, 78, 0.63);
+    transition-duration: 200ms;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.completeRedBoldButton {
+    background-color: #F53855;
+    color: white;
+}
+.completeRedBoldButton:hover {
+    background-color: rgba(214, 54, 78, 0.63);
+    color: #F53855;
+    transition-duration: 200ms;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.specialButton {
+    width: 250px;
+    background-color: #F53855;
+    color: white;
+    border-radius: 10px;
+    font-weight: 800;
+    box-shadow: 0px 10px 20px -1px rgba(0,0,0,0.69);
+    border: #F53855 solid 2px
+}
+
+.specialButton:hover {
+    background-color: white;
+    color: #F53855;
+    transition-duration: 200ms;
+    cursor: pointer;
+    border-radius: 10px;
+    border: #F53855 solid 2px
+}

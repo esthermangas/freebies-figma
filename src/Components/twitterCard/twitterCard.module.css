@@ -1,0 +1,78 @@
+.root {
+    width: 350px;
+    height: 250px;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.head {
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.infoUser {
+    min-width: 60%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5%;
+}
+.nameUser {
+    height: 18px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+.locationUser {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+    justify-self: flex-end;
+}
+.punctuation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50px;
+    height: 15px;
+    justify-content: center;
+}
+
+.points {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #0B132A;
+}
+
+.profileSimulation {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+.comment {
+    min-width: 300px;
+    height: 100px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    color: #0B132A;
+}
