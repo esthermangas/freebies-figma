@@ -4,6 +4,7 @@
     align-items: center;
     margin-top: 150px;
 }
+
 .textContainer{
     width: 500px;
     height: 200px;
@@ -11,6 +12,7 @@
     flex-direction: column;
     align-items: center;
 }
+
 .title{
     width: 350px;
     font-style: normal;
@@ -20,6 +22,7 @@
     text-align: center;
     color: #0B132A;
 }
+
 .subTitle{
     width: 500px;
     font-style: normal;
@@ -29,18 +32,9 @@
     text-align: center;
     color: #4F5665;
 }
+
 .mapContainer{
     margin-top: 100px;
     width: 1060px;
     height: 530px;
 }
-/*
-.logoContainer{
-    width: 1135px;
-    height: 208px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.imgLogo{}
-*/

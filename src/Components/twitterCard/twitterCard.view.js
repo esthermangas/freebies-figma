@@ -4,7 +4,7 @@ import starIcon from '../../assets/PartThree/starIcon.png';
 
 const TwitterCard = (props) => {
     const {twitterUser} = props;
-    console.log(twitterUser.profilePhoto);
+
     return (
         <div className={styles.root}>
             <div className={styles.head}>

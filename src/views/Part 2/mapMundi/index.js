@@ -1,3 +1,3 @@
-import MapLogos from "./mapMundi.view";
+import MapLogos from './mapMundi.view';
 
 export default MapLogos;

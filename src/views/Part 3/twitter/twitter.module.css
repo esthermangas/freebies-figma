@@ -55,11 +55,13 @@
     align-items: center;
     justify-content: space-evenly;
 }
+
 .buttonsCont {
     width: 150px;
     display: flex;
     justify-content: space-evenly;
 }
+
 .button {
     width: 60px;
     height: 60px;
@@ -72,11 +74,13 @@
 .button:focus{
     outline: none;
 }
+
 .button:hover {
     transition-duration: 200ms;
     cursor: pointer;
     background-color: #F53855;
 }
+
 .button > svg {
     fill: #F53855;
 }
@@ -93,6 +97,7 @@
     width: 100%;
     padding: 200px 150px 100px 150px;
 }
+
 .contLogos {
     display: flex;
     flex-direction: column;
@@ -100,11 +105,13 @@
     margin-right: 200px;
     justify-content: flex-start;
 }
+
 .logo {
     width: 149px;
     height: 36px;
     margin-bottom: 20px;
 }
+
 .logoText {
     width: 340px;
     height: 60px;
@@ -115,6 +122,7 @@
     color: #4F5665;
     margin-bottom: 30px;
 }
+
 .socialAppsLogos {
     width: 200px;
     display: flex;
@@ -133,18 +141,21 @@
     text-align: center;
     color: #AFB5C0;
 }
+
 .footerInfo {
     display: flex;
     flex-direction: row;
     width: 450px;
     justify-content: flex-end;
 }
+
 .column {
     width: 120px;
     height: 300px;
     display: flex;
     flex-direction: column;
 }
+
 .columnTitle {
     font-style: normal;
     font-weight: 500;
@@ -152,6 +163,7 @@
     line-height: 40px;
     color: #0B132A;
 }
+
 .columnText {
     font-style: normal;
     font-weight: normal;
@@ -159,6 +171,7 @@
     line-height: 40px;
     color: #4F5665;
 }
+
 .subscribe{
     position: relative;
     top: 120px;
@@ -167,17 +180,20 @@
     flex-direction: row;
     justify-content: center;
 }
+
 .subscribeCont {
     background: #FFFFFF;
     border-radius: 10px;
     display: flex;
     width: 1140px;
 }
+
 .subscribeTextCont {
     width: 410px;
     height: 116px;
     padding: 50px;
 }
+
 .subscribeTitle {
     width: 371px;
     height: 80px;
@@ -190,6 +206,7 @@
     color: #0B132A;
     margin-bottom: 20px;
 }
+
 .subscribeText{
     width: 410px;
     height: 16px;

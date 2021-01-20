@@ -8,7 +8,6 @@
     flex-direction: column;
     padding: 20px;
 }
-
 .head {
     height: 60px;
     display: flex;
@@ -16,7 +15,6 @@
     align-items: center;
     margin-bottom: 8px;
 }
-
 .infoUser {
     min-width: 60%;
     height: 50px;
@@ -50,7 +48,6 @@
     height: 15px;
     justify-content: center;
 }
-
 .points {
     font-style: normal;
     font-weight: normal;
@@ -58,14 +55,11 @@
     line-height: 30px;
     color: #0B132A;
 }
-
 .profileSimulation {
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-
-
 .comment {
     min-width: 300px;
     height: 100px;

@@ -5,7 +5,6 @@ import imgGirl from '../../../assets/imgGirl.png';
 import iconLocation from '../../../assets/iconLocation.png';
 import iconServer from '../../../assets/iconServer.png';
 import iconUser from '../../../assets/iconUser.png';
-import vector from '../../../assets/vector.png';
 
 const TextImage = () => {
     return (

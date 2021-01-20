@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './box.module.css';
-import boxFree from "../../assets/PartTwo/boxFree.png";
-import simpleCheckIcon from "../../assets/PartTwo/simpleCheckIcon.png";
-import Button from "../Button";
+import boxFree from '../../assets/PartTwo/boxFree.png';
+import simpleCheckIcon from '../../assets/PartTwo/simpleCheckIcon.png';
+import Button from '../Button';
 
 const Box = (props) => {
     const {plan, onClickSelect, selected} = props;

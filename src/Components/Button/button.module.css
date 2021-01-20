@@ -13,13 +13,11 @@
     cursor: pointer;
     border-radius: 50px;
 }
-
 .buttonRed {
     color: #F53855;
     border: #F53855 1px solid;
     border-radius: 50px;
 }
-
 .buttonRed:hover{
     background-color: #F53855;
     transition-duration: 200ms;
@@ -27,11 +25,9 @@
     border-radius: 50px;
     color: white;
 }
-
 .buttonBold {
     font-weight: 800;
 }
-
 .completeBoldButton {
     font-weight: 800;
     color: #F53855;
@@ -54,7 +50,6 @@
     cursor: pointer;
     border-radius: 50px;
 }
-
 .specialButton {
     width: 250px;
     background-color: #F53855;
@@ -64,7 +59,6 @@
     box-shadow: 0px 10px 20px -1px rgba(0,0,0,0.69);
     border: #F53855 solid 2px
 }
-
 .specialButton:hover {
     background-color: white;
     color: #F53855;

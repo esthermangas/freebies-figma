@@ -1,3 +1,3 @@
-import Twitter from "./twitter.view";;
+import Twitter from './twitter.view';
 
 export default Twitter;

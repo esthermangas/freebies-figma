@@ -2,15 +2,6 @@ import React from 'react';
 import styles from './mapMundi.module.css';
 import map from '../../../assets/PartTwo/mapaMundi.png';
 
-/*
-import netflixLogo from '../../../assets/PartTwo/logos/netflixLogo.png';
-import redditLogo from '../../../assets/PartTwo/logos/redditLogo.png';
-import amazonLog from '../../../assets/PartTwo/logos/amazonLog.png';
-import discordLogo from '../../../assets/PartTwo/logos/discordLogo.png';
-import spotifyLogo from '../../../assets/PartTwo/logos/spotifyLogo.png';
-*/
-
-
 const MapLogos = () => {
     return (
         <div className={styles.root}>

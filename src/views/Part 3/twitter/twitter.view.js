@@ -1,17 +1,18 @@
 import React from 'react';
 import styles from './twitter.module.css';
-import {twitterUsers} from "../../../Components/db";
-import TwitterCard from "../../../Components/twitterCard";
+import {twitterUsers} from '../../../Components/db';
+import TwitterCard from '../../../Components/twitterCard';
 import logo from '../../../assets/logo.png';
 import fb from '../../../assets/PartThree/fb.png';
 import twitter from '../../../assets/PartThree/twitter.png';
 import instagram from '../../../assets/PartThree/instagram.png'
-import Button from "../../../Components/Button";
+import Button from '../../../Components/Button';
 
 const Twitter = () => {
     const productColumn = ['Download', 'Pricing', 'Locations', 'Server', 'Countries', 'Blog'];
     const engageColumn = ['LaslesVPN ?', 'FAQ', 'Tutorials', 'About Us', 'Privacy Policy', 'Terms of Service'];
     const earnMoneyColumn = ['Affiliate', 'Become Partner'];
+
     return (
         <div className={styles.root}>
             <div className={styles.textContainer}>

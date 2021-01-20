@@ -8,6 +8,7 @@ const Plans = () => {
     const handleClickSelect = (id) => {
         setSelect(id);
     };
+
     return (
         <div className={styles.root}>
             <div className={styles.textContainer}>

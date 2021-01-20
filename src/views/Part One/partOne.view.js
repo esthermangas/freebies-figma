@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './partOne.module.css';
-import NavBar from "./navBar";
-import TextImage from "./textImage";
+import NavBar from './navBar';
+import TextImage from './textImage';
 
 const PartOne = () => {
     return (
@@ -13,3 +13,4 @@ const PartOne = () => {
 };
 
 export default PartOne;
+

@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './partThree.module.css';
-import Twitter from "./twitter";
+import Twitter from './twitter';
 
 const PartThree = () => {
     return (

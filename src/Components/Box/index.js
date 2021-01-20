@@ -1,3 +1,3 @@
-import Box from "./box.view";
+import Box from './box.view';
 
 export default Box;
